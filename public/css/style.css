@@ -1,1 +1,46 @@
-body { background-color: lightblue; }
+body {
+    background: hsl(255, 73%, 96%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;    
+}
+input#display{
+    background-color: azure;
+    width: 40em;
+    height: 2em;
+    text-align: right;
+    font-weight: bold;   
+}
+.resultado{
+    height: 15%;
+}
+table {
+    position: absolute;
+    top: 100%;
+}
+td{
+    background: rgb(96,9,240);
+    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+    border: none;
+    text-align: center;
+}
+td:hover {
+    box-shadow: 2px 2px 2px blueviolet;
+}
+h1 {
+    box-shadow: 2px 2px 2px 2px azure;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+.number {
+    width: 80px;
+    height: 80px;
+    background: rgb(96,9,240);
+    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+    border: none;
+    color: azure;
+    align-items: center;
+}
